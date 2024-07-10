@@ -9,6 +9,11 @@ body {
 }
 
 .container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 0 40px;
+    min-height: 520px;
     text-align: center;
     padding: 20px;
     background-color: #fff;
@@ -22,15 +27,9 @@ button {
     margin-bottom: 20px;
     font-size: 32px;
     font-weight: bold;
-
-    background-color: azure;
-    color: #222222;
-    margin-top: 20px;
-}
-
-button:hover {
     background-color: cadetblue;
     color: azure;
+    margin-top: 20px;
 }
 
 p {
